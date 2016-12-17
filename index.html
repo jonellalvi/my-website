@@ -12,7 +12,8 @@
     <title>Jonell Alvi</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
@@ -26,7 +27,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- favicon -->
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/ >
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,9 +57,9 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <!-- <li class="page-scroll">
+                    <li class="page-scroll">
                         <a href="#portfolio">Portfolio</a>
-                    </li> -->
+                    </li>
                     <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
@@ -77,10 +78,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/headshot256.jpg" alt="" style="border-radius: 50%;">
+                    <img class="img-responsive img-thumbnail" src="img/headshot256.jpg" alt="" style="border-radius: 50%;">
                     <div class="intro-text">
                         <span class="name">Jonell Alvi</span>
-                        <hr class="star-light">
+                        <img src="img/hr-gray.png" >
+                        <!-- <hr class="star-light"> -->
                         <span class="skills">Web Developer - Technical Support Engineer - Content Specialist</span>
                     </div>
                 </div>
@@ -90,65 +92,75 @@
                     <hr>
                     <!-- <p>See my amazing time engine project</p> -->
                     <!-- <hr class="star-light"> -->
-                    <a href="http://jonellalvi.com/time_engine" class="btn btn-lg btn-outline" target="_blank">
+                    <!-- <a href="http://jonellalvi.com/time_engine" class="btn btn-lg btn-outline" target="_blank">
                         <i class="fa fa-external-link"></i> See my Time Engine Project
-                    </a>
+                    </a> -->
                 </div>
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-     <!-- commenting out this section for the moment
+
      <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Portfolio</h2>
-                    <hr class="star-primary">
+                    <img src="img/hr-gray.png" alt="fancy rule">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
+                    <h4 class="text-center">Grace Hopper Tribute Page</h4>
+                    <h4 class="text-center"><small>Single page Bootstrap Website</small></h4>
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/ght-thumb.png" class="img-responsive img-thumbnail" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
+                    <h4 class="text-center">Time Engine</h4>
+                    <h4 class="text-center"><small>Single page Django App</small></h4>
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/te-thumb.png" class="img-responsive img-thumbnail" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+            </div> <!--/.row-->
+            <div class="row">
+                <div class="col-sm-6 portfolio-item">
+                    <h4 class="text-center">Urban Airship Knowledge Base</h4>
+                    <h4 class="text-center"><small>Content Strategy | Technical Writing</small></h4>
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/uakb-thumb.png" class="img-responsive img-thumbnail" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
+                    <h4 class="text-center">Homeschool Catalyst Business Plan</h4>
+                    <h4 class="text-center"><small>Business Writing Sample</small></h4>
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/hsc-thumb.png" class="img-responsive img-thumbnail" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+            </div><!--/.row-->
+                <!--<div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -167,18 +179,19 @@
                         </div>
                         <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
                     </a>
-                </div>
-            </div>
-        </div>
-    </section>-->
+                </div> -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section>
 
     <!-- About Section -->
     <section class="success" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
+                    <h2>About Me</h2>
+                    <img src="img/hr-gray.png" >
+                    <!-- <hr class="star-light"> -->
                 </div>
             </div>
             <div class="row">
@@ -201,9 +214,11 @@
                     <!-- <hr class="star-light"> -->
                     <hr>
                     <p>When the confluence of humans and technology creates confusion, discord, and frustration, I’m here to help.</p>
-                    <hr class="star-light">
+                    <img src="img/hr-gray.png" >
+                    <!-- <hr class="star-light"> -->
                     <a href="about.html" class="btn btn-lg btn-outline" target="_blank">
-                        <i class="fa fa-external-link"></i> See my Resume
+                        See my Resume
+                        <i class="fa fa-external-link"></i>
                     </a>
                 </div>
             </div>
@@ -299,7 +314,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>About this site</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a> and modified by <a href="mailto:jonellalvi@gmail.com">Jonell Alvi.</a></p>
+                        <p>Built with <a href="http://startbootstrap.com">Freelance</a> and  <i class="fa fa-heart">  </i></p>
                     </div>
                 </div>
             </div>
@@ -323,43 +338,52 @@
     </div>
 
     <!-- Portfolio Modals -->
+    <!-- GRACE HOPPER TRIBUTE PAGE -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
-                    <div class="rl">
-                    </div>
+                   <div class="rl">
+                   </div>
                 </div>
+                <!-- <i class="fa fa-window-close-o fa-3"></i> -->
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <h2>Grace Hopper Tribute Page</h2>
+                            <img src="img/hr-gray.png" alt="fancy rule">
+                            <img src="img/portfolio/ght-thumb.png" class="img-responsive img-centered img-thumbnail" alt="">
+                            <p class="pull-left"><strong>Summary:</strong>
+                                Challenge from freeCodeCamp to create a <a href="http://www.jonellalvi.com/portfolio/grace-hopper-tribute/">tribute page</a>; done using Bootstrap with no other CSS.
+                            </p>
+                            <p><strong>Description:</strong> I wrote this web page from scratch, using only HTML and <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>. The exercise was part of a challenge from <a href="https://www.freecodecamp.com/challenges/build-a-tribute-page" target="_blank">Free Code Camp</a> in which the objective was to build an app in CodePen.io that fulfilled two user stories. I decided also to use only HTML and Bootstrap, as a way to help cement my familiarity with the <a href="http://getbootstrap.com">Twitter Bootstrap</a> framework.
+                            </p>
+                            <a href="http://www.jonellalvi.com/portfolio/grace-hopper-tribute/" class="btn btn-lg btn-outline" target="_blank">
+                                 See my Grace Hopper Tribute page  <i class="fa fa-external-link"></i>
+                            </a>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
+                                <li><i class="fa fa-github"></i>
+                                <a href="https://github.com/jonellalvi/portfolio/tree/master/grace-hopper-tribute" target="_blank">View the code</a>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong><a href="http://www.jonellalvi.com/portfolio/grace-hopper-tribute/">November 2016</a>
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Built using:
+                                    <strong><a href="http://getbootstrap.com">Bootstrap</a>
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Dismiss</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- TIME ENGINE DJANGO APP -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -372,31 +396,40 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <h2>Time Engine Django App</h2>
+                            <img src="img/hr-gray.png" alt="fancy rule">
+                            <img src="img/portfolio/te-thumb.png" class="img-responsive img-centered img-thumbnail" alt="">
+                            <p><strong>Summary:</strong>
+                                Full stack single page Django app to calculate and display a set of events over a time period.
+                            </p>
+                            <p><strong>Description:</strong> This was my capstone project I completed to graduate from the 16-week Python based Full-Stack Developer bootcamp program at <a href="https://pdxcodeguild.com" target="_blank">PDX Code Guild</a>. I built it using the Django web application framework. It's main purpose is to allow the user to input a start date, a set of available days, and the number of events in the series, then calculates the end date and displays the events on a calendar. The main use case is teachers with a series of classes to model different scenarios for choosing which days of the week and how many days each week to offer classes within a set time period.
+                            </p>
+                            <!-- <a href="http://www.jonellalvi.com/portfolio/grace-hopper-tribute/" class="btn btn-lg btn-outline" target="_blank">
+                                 Try out the Time Engine App  <i class="fa fa-external-link"></i>
+                            </a> -->
+                            <a href="http://jonellalvi.com/time_engine" class="btn btn-lg btn-outline" target="_blank">
+                        <i class="fa fa-external-link"></i> Try out the Time Engine App</a>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
+                                <li><i class="fa fa-github"></i>
+                                <a href="https://github.com/jonellalvi/Time-Engine" target="_blank">View the code</a>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong>February 2015</a>
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Built using:
+                                    <strong><a href="https://www.djangoproject.com/" target="_blank">Django</a>, jQuery, AJAX, Bootstrap, and Python.
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Dismiss</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- URBAN AIRSHIP KNOWLEDGE BASE -->
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -409,31 +442,46 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <h2>Urban Airship's Knowledge Base</h2>
+                            <img src="img/hr-gray.png" alt="fancy rule">
+                            <img src="img/portfolio/uakb-thumb.png" class="img-responsive img-centered img-thumbnail" alt="">
+                            <p><strong>Summary:</strong>
+                                Developed a new bronze level support tier for Urban Airship by updating and developing the content strategy for the customer facing Knowledge Base.
+                            </p>
+                            <p><strong>Description:</strong>
+                                <ul class="description">
+                                    <li>managed customer facing Knowledge Base of over 200 articles</li>
+                                    <li>developed style guide to ensure a consistent voice and establish rules rules for contributions</li>
+                                    <li>developed SOPs to welcome content contributions from across the company</li>
+                                    <li>updated existing articles to ensure accuracy</li>
+                                    <li>managed articles in a master tracking sheet</li>
+                                </ul>
+                            </p>
+                            <!-- <a href="http://www.jonellalvi.com/portfolio/grace-hopper-tribute/" class="btn btn-lg btn-outline" target="_blank">
+                                 Try out the Time Engine App  <i class="fa fa-external-link"></i>
+                            </a> -->
+                            <a href="http://jonellalvi.com/time_engine" class="btn btn-lg btn-outline" target="_blank">
+                                See the Urban Airship Knowledge Base
+                                <i class="fa fa-external-link"></i>
+                            </a>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong>August 2016
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Built using:
+                                    <strong>Zendesk, Skitch, Google Sheets
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Dismiss</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- HOMESCHOOL CATALYST BUSINESS PLAN -->
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -446,32 +494,40 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <h2>Homeschool Catalyst Business Plan</h2>
+                            <img src="img/hr-gray.png" alt="fancy rule">
+                            <img src="img/portfolio/hsc-thumb.png" class="img-responsive img-centered img-thumbnail" alt="">
+                            <p><strong>Summary:</strong>
+                                Award-winning business plan that is a good example of my more formal writing style.
+                            </p>
+                            <p><strong>Description:</strong>
+                                Out of 70 participants and 21 submitted business plans, my 23 page plan was chosen by a panel of business professionals to receive a prize package of over $2500 in consulting support to help me launch my business. Followed the lean startup methodology, using Wufoo forms to create a questionnaire for customer validation.
+                            </p>
+                            <!-- <a href="http://www.jonellalvi.com/portfolio/grace-hopper-tribute/" class="btn btn-lg btn-outline" target="_blank">
+                                 Try out the Time Engine App  <i class="fa fa-external-link"></i>
+                            </a> -->
+                            <a href="http://www.slideshare.net/JonellAlvi/hscbusinessplanfinal" class="btn btn-lg btn-outline" target="_blank">
+                                Read the Homeschool Catalyst Business Plan
+                                <i class="fa fa-external-link"></i>
+                            </a>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong>February 2012
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Built using:
+                                    <strong>Word, Excel, Yahoo groups, Wufoo forms
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Dismiss</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <!--<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -523,7 +579,7 @@
                             <h2>Project Title</h2>
                             <hr class="star-primary">
                             <div id="cv"></div>
-                            <!--<img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -538,14 +594,14 @@
                                     <strong><a href="http://startbootstrap.com">Web Development</a>
                                     </strong>
                                 </li>
-                            </ul>-->
+                            </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
